@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """Download Gutenberg books and upload them to a public S3 bucket."""
 
