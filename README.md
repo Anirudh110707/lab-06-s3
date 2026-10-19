@@ -1,4 +1,22 @@
+## My S3 buckets
+
+### Public bucket
+[Browse my book collection](https://public-hvs7nb.s3.amazonaws.com/index.html)
+
+### Private bucket
+[Read The Great Gatsby](https://secret-hvs7nb.s3.us-east-1.amazonaws.com/pg64317.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWSWY3OZEXDMTA2FJ%2F20261019%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261019T224806Z&X-Amz-Expires=30&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG8aCXVzLXdlc3QtMiJGMEQCIFnVLTA8GtvadPJ2rSiuIs1RkgApB%2FQFCCuAVbY5ryuBAiBo4PHCj1fue%2Bub%2F%2FUHnqg3xa%2BNqCG76XdgVjgvADdYSyqtAgg4EAIaDDQ1MjUwMDA5MjQ4OSIMw%2BcaQy1T1TvbASViKooC0y%2FQN1sMuvsGQQ2yMergPMPkhHg1JxCrb7sOPBszjzUZ8PBhPCJrAUufqIy3TfBj0TmDBnunUq7jbZMZd6sD12y1dznX%2F9JCvYXUnYcfQUI9xBXRCp11q6%2B3SAmqpn4FDd%2Bytphleg34DgdMWYj%2FgWS8NM7bsP%2B9LnmkLd2dZ70Y1kiHopzeyBxEG0eZD%2BnLNowu4n8pD4K%2BFQgxnBzA1HUchHScp3v0iU%2BRKmSwEYkHDLX311Ee7DmJ35DHuvrl0cAc0zDf%2BwHQXnwKcOyoo%2BqT2omnp8%2FeycmzdrpvFSeLRopKAA8b3rZ3YAa7UniYBdJZxkS4uJu81CRlsvJCu4LOLvcVzV%2Bsfasw%2FLLa1gY6ngFNIvU0ARrIpLVDw169HV8Z%2BQ3a6K8yD%2Btew9PpfxnfLPpoe95CKMxdtYImNwRt%2FOjwOv4fsUYVAaylLKCZ3uuKrWs9JfEUFpBYeAZ%2BLrVNjARBV2Gv9r7GUL3cKNI7tmJKRSJupE6C%2Bx5UmFaI1Si8VwGcxE0ZKVaH%2Bx8lF%2FN0vvQpUiHgRvLSuaulDXXam%2B4wXJSLR28OR3vveYIiDQ%3D%3D&X-Amz-Signature=4f687988d01fda76c51ce2a1e2b55bfefdd91351dec2857c53f2da0ae48b9be2)
+
+### Explanation
+I would use a public bucket when I want everyone to be able to
+access files, such as a collection of public-domain books.
+
+I would use a private bucket with a presigned URL when I only
+want to share one specific file for a limited period of time
+without making the entire bucket accessible.
+
 # Lab 06: Working with S3 Storage
+
+---
 
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
 
